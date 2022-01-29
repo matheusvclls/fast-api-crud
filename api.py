@@ -38,7 +38,7 @@ class UpdateItem(BaseModel):
 
 
 @app.get("/")
-def read_root():
+def hello_world_root():
     return {"Hello": "World"}
 
 
